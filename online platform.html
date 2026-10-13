@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html>
+<head>c
+<title>Online Learning</title>
+
+<style>
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f2f5ff;
+    text-align: center;
+}
+
+header {
+    background: navy;
+    color: white;
+    padding: 20px;
+}
+
+.categories {
+    padding: 15px;
+    color: navy;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #bbb;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+button {
+    background: navy;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: blue;
+}
+
+@media (max-width: 600px) {
+    header {
+        font-size: 14px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Online Learning Platform</h1>
+    <p>Learn New Skills Online</p>
+</header>
+
+<div class="categories">
+    <h2>Course Categories</h2>
+    Web Development | Python | Java
+</div>
+
+<div class="container">
+
+    <div class="card">
+        <h2>HTML & CSS</h2>
+        <p>Instructor: Ravi</p>
+        <p>Duration: 4 months</p>
+        <p>Price: ₹1599</p>
+        <button>Enroll Now</button>
+    </div>
+
+    <div class="card">
+        <h2>Python</h2>
+        <p>Instructor: Shaik karimunissa</p>
+        <p>Duration: 5 months</p>
+        <p>Price: ₹1899</p>
+        <button>Enroll Now</button>
+    </div>
+
+    <div class="card">
+        <h2>Java</h2>
+        <p>Instructor: Smitha kranthi</p>
+        <p>Duration: 4 monthsWeeks</p>
+        <p>Price: ₹1699</p>
+        <button>Enroll Now</button>
+    </div>
+
+</div>
+
+</body>
+</html>
